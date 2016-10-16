@@ -14,8 +14,8 @@ function login(){
  	$this->lib_include();
  	$api = new Google_Client();
  	$api->setApplicationName("Webcademy");
- 	$api->setClientId('383520336419-77qqvi29mgmp445q76pagkf2a8ee030n.apps.googleusercontent.com');
- 	$api->setClientSecret('rEP1LDtszcx8E1Eyhzwx9hCZ');
+ 	$api->setClientId('');
+ 	$api->setClientSecret('');
  	$api->setAccessType('online');
  	$api->setScopes(array('https://www.googleapis.com/auth/plus.login', 'https://www.googleapis.com/auth/plus.me', 'https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/userinfo.profile'));
         $api->setRedirectUri('http://webcademy.fomrad.com/php/googlelogin/login.php');   // Enter redirect URI
