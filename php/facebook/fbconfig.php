@@ -21,7 +21,7 @@ use Facebook\FacebookAuthorizationException;
 use Facebook\GraphObject;
 use Facebook\GraphSessionInfo;
 
-FacebookSession::setDefaultApplication('195969304101419','90408693251fb99a9e3177ea29d62c6a');
+FacebookSession::setDefaultApplication('','');
 
 $helper = new FacebookRedirectLoginHelper('http://www.webcademy.fomrad.com/php/facebook/fbconfig.php');
 try {
