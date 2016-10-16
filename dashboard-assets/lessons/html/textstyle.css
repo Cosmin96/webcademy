@@ -1,0 +1,22 @@
+body{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.quiz{
+	padding-left: 20px;
+}
+
+code{
+	padding-left:80px;
+}
+
+.submit{
+	border-radius: 40px;
+	background-color: #fed136;
+	color: #000000;
+	height: 50px;
+	width: 100px;
+	margin-top:50px;
+}
